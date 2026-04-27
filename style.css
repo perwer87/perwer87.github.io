@@ -442,8 +442,8 @@ footer span { color: var(--accent2); }
 @media (max-width: 768px) {
   .nav-links { display: none; }
   .about-grid { grid-template-columns: 1fr; gap: 2.5rem; }
-  .about-photo { max-width: 100%; width: 100%; }
-  .about-photo img { max-width: 100%; }
+  .about-photo { max-width: 100%; width: 100%; align-self: stretch; }
+  .about-photo img { width: 100%; max-width: 100%; }
   .contact-wrapper { grid-template-columns: 1fr; gap: 2.5rem; }
   .form-row { grid-template-columns: 1fr; }
 }
